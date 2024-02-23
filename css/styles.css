@@ -2,13 +2,37 @@ body {
   font-family: Arial, sans-serif;
   text-align: center;
   background-color: #f4f4f4;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #FABBD6;
+  color: white;
+  font-family: "Playfair Display", serif;
+  
+  
+
 }
+
+main {
+  margin-top: 10%;
+  width: 400px;
+  height: 200px;
+  background-color: #701243;
+  padding: 25px;
+  border-radius: 25px;
+}
+
+
+
 .boton-jugada {
-  background-color: #3498db;
+  font-family: "Playfair Display", serif;
+  background-color: #E52489;
   color: #fff;
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
+  border-radius: 20px;
+  border: none;
 }
 #resultados {
   font-size: 20px;
