@@ -22,7 +22,11 @@ main {
   border-radius: 25px;
 }
 
-
+.contenedor-botones {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
 
 .boton-jugada {
   font-family: "Playfair Display", serif;
@@ -34,6 +38,11 @@ main {
   border-radius: 20px;
   border: none;
 }
+
+.boton-jugada:hover {
+  background-color: #470B2A ;
+}
+
 #resultados {
   font-size: 20px;
   margin: 20px 0;
